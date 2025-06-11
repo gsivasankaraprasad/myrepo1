@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Hello World!'
                 echo 'Hi vikram'
-                sh 'mkdir dir1 && mkdir dir2'
+                sh 'mkdir dir3 && mkdir dir2'
             }
         }
     }
