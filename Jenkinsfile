@@ -5,8 +5,8 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World!'
-                echo 'Hi vikram'
-                sh 'mkdir dir3 && mkdir dir2'
+                echo "Build number: ${env.BUILD_NUMBER}"
+                echo "Job name: ${env.JOB_NAME}"
             }
         }
     }
