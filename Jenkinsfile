@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello World!'
                 echo "Build number: ${env.BUILD_NUMBER}"
                 echo "Job name: ${env.JOB_NAME}"
-                sh 'mkdir dir2'
+                sh 'mkdir dir3'
                 sh 'date'
             }
         }
